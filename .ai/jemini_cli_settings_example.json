@@ -1,0 +1,32 @@
+{
+  "general": {
+    "sessionRetention": {
+      "enabled": true,
+      "maxAge": "30d",
+      "warningAcknowledged": true
+    }
+  },
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
+  "model": {
+    "name": "gemini-3-flash-preview"
+  },
+  "mcpServers": {
+    "desktop-commander": {
+      "command": "/usr/local/bin/desktop-commander",
+      "env": {
+        "PATH": "/Users/[YOUR_PATH]/your-repository-venv/bin:/usr/local/bin:/usr/bin:/bin",
+        "VIRTUAL_ENV": "/Users/[YOUR_PATH]/your-repository-venv"
+      },
+      "cwd": "/Users/[YOUR_PATH]/.desktop-commander",
+      "timeout": 120000,
+      "trust": true
+    }
+  },
+  "ui": {
+    "hideTips": true
+  }
+}

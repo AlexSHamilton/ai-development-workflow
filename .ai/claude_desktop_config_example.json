@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "desktop-commander": {
+      "command": "/usr/local/bin/desktop-commander",
+      "env": {
+        "PATH": "/Users/[YOUR_PATH]/bin:/usr/local/bin:/usr/bin:/bin",
+        "VIRTUAL_ENV": "/Users/[YOUR_PATH]/project_name-venv"
+      }
+    }
+  },
+  "preferences": {
+    "chromeExtensionEnabled": false,
+    "coworkScheduledTasksEnabled": true,
+    "sidebarMode": "chat",
+    "coworkWebSearchEnabled": true,
+    "quickEntryShortcut": "off"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "blockedCommands": [
+    "rm -rf",
+    "sudo",
+    "su",
+    "chmod",
+    "chown",
+    "git push",
+    "git push --force",
+    "npm publish",
+    "ssh",
+    "curl",
+    "wget",
+    "pkill",
+    "kill -9",
+    "killall",
+    "docker rm",
+    "docker rmi",
+    "docker stop",
+    "supabase db push",
+    "supabase db reset",
+    "supabase db push --linked",
+    "supabase migration repair",
+    "npm run build",
+    "npx next build"
+  ],
+  "defaultShell": "/bin/zsh",
+  "allowedDirectories": [
+    "/Users/[YOUR_PATH]/your-repository",
+    "/Users/[YOUR_PATH]/your-repository-1",
+    "/Users/[YOUR_PATH]/your-repository-2",
+    "/tmp",
+    "/private/tmp"
+  ],
+  "telemetryEnabled": false,
+  "fileWriteLineLimit": 50,
+  "fileReadLineLimit": 1000,
+  "version": "0.2.37"
+}
