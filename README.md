@@ -72,27 +72,31 @@ PROJECT_ROOT/
 ├── .ai/
 │   ├── ARCHITECTURE.md          # High-level system design & stack decisions
 │   ├── CONVENTIONS.md           # Coding standards, bans, and patterns
+│   ├── DB_FIELD_REGISTRY.md     # Database schema source of truth
+│   ├── DC_REFERENCE.md          # Desktop Commander tool cheat sheet
 │   ├── DECISIONS_LOG.md         # ADRs (Architecture Decision Records)
 │   ├── DOC_REGISTRY.md          # Map of all documentation files & freshness
-│   ├── PROJECT_BRIEF.md         # What are we building and why?
-│   ├── RUNBOOK.md               # Common CLI commands for setup/deploy
-│   ├── STEP_TEMPLATE.md         # Strict template for task definitions
-│   ├── WORK_LOG.md              # Chronological log of completed work
-│   ├── WORKFLOW.md              # The rules of the game (Roles & Modes)
+│   ├── PROJECT_BRIEF.md         # High-level project goal & market
+│   ├── REPOMIX_REFERENCE.md     # Context packing cheat sheet
+│   ├── RUNBOOK.md               # Essential CLI commands for the project
+│   ├── STEP_TEMPLATE.md         # Mandatory template for all task files
+│   ├── WORKFLOW.md              # Core operating rules (Roles & Modes)
+│   ├── WORK_LOG.md              # Chronological project history
+│   ├── *_example.json           # JSON config samples for DC and Gemini CLI
 │   │
-│   ├── contexts/                # ROLE DEFINITIONS ("Personas")
+│   ├── contexts/                # ROLE DEFINITIONS ("Operating Systems")
 │   │   ├── ctx-master.md        # Dynamic context for the Architect
-│   │   ├── project_instructions-master.md         # Architect Activation (Claude)
-│   │   ├── project_instructions-master_gemini.md  # Architect Activation (Gemini)
-│   │   ├── project_instructions-dev.md            # Executor Activation (Claude)
-│   │   └── project_instructions-dev_gemini.md     # Executor Activation (Gemini)
+│   │   ├── project_instructions-master.md      # Architect Activation (Claude)
+│   │   ├── project_instructions-master_gemini.md # Architect Activation (Gemini)
+│   │   ├── project_instructions-frontend.md    # Frontend Role instructions
+│   │   └── project_instructions-database.md    # Database Role instructions
 │   │
-│   └── tasks/                   # STATE MANAGEMENT
-│       ├── BACKLOG.md
-│       ├── phase-1/
-│       │   ├── PHASE_PLAN.md
-│       │   ├── step-01.md         # Task definition (INPUT)
-│       │   └── step-01-result.md  # Task completion report (OUTPUT)
+│   └── tasks/                   # STATE MANAGEMENT (Execution Ledger)
+│       ├── BACKLOG.md           # High-level roadmap
+│       └── phase-1/
+│           ├── PHASE_PLAN.md    # Milestones for the current phase
+│           ├── step-01.md       # Precise task definition (Input)
+│           └── step-01-result.md # Task execution report (Output)
 ```
 
 ---
