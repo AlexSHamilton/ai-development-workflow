@@ -56,10 +56,10 @@ Complex features don't fit in one chat context.
 
 There are four pieces that make this work:
 
-1.  **[Desktop Commander](https://github.com/wonderwhy-er/DesktopCommanderMCP) (DC):** An MCP server that gives the agent real filesystem access, terminal control, and safety guardrails. It allows agents to read/write files and run tests.
-2.  **[Repomix](https://github.com/yamadashy/repomix):** Packs repository context into optimized prompt bundles. Instead of dumping your entire codebase into the chat, Repomix lets you surgically include *only* the files relevant to the current task.
+1.  **<a href="https://github.com/wonderwhy-er/DesktopCommanderMCP" target="_blank">Desktop Commander</a> (DC):** An MCP server that gives the agent real filesystem access, terminal control, and safety guardrails. It allows agents to read/write files and run tests.
+2.  **<a href="https://github.com/yamadashy/repomix" target="_blank">Repomix</a>:** Packs repository context into optimized prompt bundles. Instead of dumping your entire codebase into the chat, Repomix lets you surgically include *only* the files relevant to the current task.
 3.  **The `.ai/` Directory:** The brain of the project. Every document that matters lives here.
-4.  **[Gemini CLI](https://github.com/google-gemini/gemini-cli) / Claude Desktop:** The reasoning engine. Interchangeable logic processors.
+4.  **<a href="https://github.com/google-gemini/gemini-cli" target="_blank">Gemini CLI</a> / Claude Desktop:** The reasoning engine. Interchangeable logic processors.
 
 ---
 
@@ -224,9 +224,9 @@ While Claude is excellent, Gemini CLI is the perfect fallback (and often primary
 ## ⚡ Quick Start
 
 ### 1. Prerequisites
-*   **[Desktop Commander](https://github.com/wonderwhy-er/DesktopCommanderMCP):** `npm install -g @wonderwhy-er/desktop-commander`
-*   **[Repomix](https://github.com/yamadashy/repomix):** `npm install -g repomix`
-*   **[Gemini CLI](https://github.com/google-gemini/gemini-cli):** Follow the installation guide for free-tier usage.
+*   **<a href="https://github.com/wonderwhy-er/DesktopCommanderMCP" target="_blank">Desktop Commander</a>:** `npm install -g @wonderwhy-er/desktop-commander`
+*   **<a href="https://github.com/yamadashy/repomix" target="_blank">Repomix</a>:** `npm install -g repomix`
+*   **<a href="https://github.com/google-gemini/gemini-cli" target="_blank">Gemini CLI</a>:** Follow the installation guide for free-tier usage.
 
 ### 2. Setup
 Clone this repository or copy the `.ai` folder to your project.
