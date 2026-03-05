@@ -233,8 +233,8 @@ npm install -g repomix
 ### 2. Setup
 Clone this repository or copy the `.ai` folder to your project.
 ```bash
-git clone https://github.com/your-username/ai-workflow-template.git
-cd ai-workflow-template
+git clone https://github.com/AlexSHamilton/ai-development-workflow.git
+cd ai-development-workflow
 ```
 
 ### 3. Initialize
