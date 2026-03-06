@@ -28,7 +28,7 @@ This system was born out of necessity when Claude Desktop went down for 3 days, 
 
 If your workflow depends on a single provider (like Claude) being online, you are fragile. If your project state lives in a chat window history, you are losing data.
 
-**The Solution:** Move **all** project state—plans, decisions, rules, context, and logs—out of the chat window and into files on disk.
+**The Solution:** Move **all** project state - plans, decisions, rules, context, and logs - out of the chat window and into files on disk.
 
 - **The Agent is Stateless:** It starts every session fresh. It reads its "operating system" from files.
 - **The Project is Stateful:** The `.ai/` directory contains the entire memory of the project.
